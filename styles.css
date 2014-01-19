@@ -1,0 +1,598 @@
+/***************************************************************
+
+makingmachinez css
+URL: http://www.makingmachinez.com/
+Date: 2010/09/26
+Author: hiroki ooiwa
+
+****************************************************************/
+
+
+/***************************************************************
+
+global reset
+
+***************************************************************/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,input,textarea,p,blockquote,th,td,address {
+margin:0;
+padding:0;
+line-height: 1.0em;
+font-size: 100%;
+font-family:
+'ヒラギノ丸ゴ Pro W4',
+'Hiragino Maru Gothic Pro',
+'MS PGothic',
+Osaka,
+Verdana,
+sans-serif
+;
+letter-spacing: 0.025em;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+fieldset,img { 
+border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+font-style:normal;
+}
+ol,ul {
+list-style:none;
+}
+caption,th {
+text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+font-weight:normal;
+}
+q:before,q:after {
+content:'';
+}
+abbr,acronym {
+border:0;
+}
+
+
+/*==========================================================
+
+body
+
+==========================================================*/
+#top {
+background: #f90;
+font-size: 75%;
+line-height: 1.4em;
+padding-bottom: 20px;
+}
+#top p,
+#top li,
+#top h1,
+#top h2,
+#top h3 {
+line-height: 1.4em;
+}
+/**/
+a,
+a:link {
+text-decoration: underline;
+}
+a:hover {
+text-decoration: none;
+}
+/**/
+p,th,td {
+line-height: 1.4em;
+}
+
+
+
+/*==========================================================
+
+header
+
+==========================================================*/
+#header {
+margin: 10px auto 10px;
+width: 468px;
+}
+#header #logo {
+}
+#header #logo a {
+display: block;
+background: url(/imgs/header.gif) no-repeat 0 0;
+width: 468px;
+height: 100px;
+text-decoration: none;
+}
+#header #logo span {
+visibility: hidden;
+}
+#header .globalNavi {
+_height: 30px;
+min-height: 30px;
+background: url(../imgs/bg_menu.gif) no-repeat 0 0;
+padding-left: 67px;
+}
+#header .globalNavi li {
+margin-top: 10px;
+float: left;
+text-align: center;
+}
+#header .globalNavi li#menu1 {background: #FF8FB0;}
+#header .globalNavi li#menu2 {background: #c33;}
+#header .globalNavi li#menu3 {background: #4CAD31;}
+#header .globalNavi li#menu4 {background: #A76FFF;}
+
+#header .globalNavi li a {
+color: #000;
+text-decoration: none;
+width: 86px;
+padding: 2px 0 0 14px;
+display: block;
+background: url(/imgs/menu_icon.gif) no-repeat 0 3px;
+}
+#header .globalNavi li a:hover {
+text-decoration: underline;
+background: #000 url(/imgs/menu_icon_o.gif) no-repeat 0 1px;
+color: #fff;
+}
+
+
+/*==========================================================
+
+contents
+
+==========================================================*/
+#contents {
+width: 470px;
+margin: 0 auto 10px;
+}
+#contents a:link {
+color: #000;
+}
+#google_search_area {
+width: 800px;
+margin: 0 auto;
+}
+
+/*==========================================================
+
+siteMap
+
+==========================================================*/
+#siteMap {
+width: 468px;
+margin: 0 auto 10px;
+}
+#siteMap a:link {
+color: #000;
+}
+#siteMap .smInner {
+}
+#siteMap ul.siteMapLink {
+font-size: 90%;
+text-align: center;
+}
+#siteMap ul.siteMapLink li {
+display: inline;
+margin-right: 5px;
+}
+#siteMap ul.siteMapLink li a {
+white-space: nowrap;
+}
+
+
+/*==========================================================
+
+footer
+
+==========================================================*/
+/**/
+#footer {
+width: 468px;
+margin: 0 auto 10px;
+border: solid 1px #000;
+background: #000;
+color: #ff0;
+}
+#footer .fInner {
+padding: 6px 8px;
+}
+address {
+text-align: center;
+}
+address a:link {
+color: #ff0;
+}
+
+.etc_box {
+width: 468px;
+margin: 0 auto 10px;
+}
+.etc_box p {}
+
+/* google adsense */
+.adsense_footer {
+width: 468px;
+margin: 0 auto 10px;
+font-size: 75%;
+}
+
+/*----------------------------------------------------------
+
+top
+
+----------------------------------------------------------*/
+#c_top {
+border: solid 1px #000;
+background: #ff0;
+}
+#c_top .main_pr {
+width: 468px;
+height: 285px;
+background: url(/imgs/main_pr.jpg) no-repeat 0 0;
+text-decoration: none;
+}
+#c_top .main_pr span {
+visibility: hidden;
+}
+.contents_inner {
+padding: 10px 10px 0;
+}
+ul.new_entry_list li {
+margin-bottom: 10px;
+}
+
+
+/*----------------------------------------------------------
+
+entry
+
+----------------------------------------------------------*/
+#c_entry {
+border: solid 1px #000;
+background: #FF8FB0;
+/**
+padding: 0 34px;
+/**/
+}
+#c_entry h1,
+#c_entry h2 {
+background: #000;
+color: #fff;
+padding: 5px;
+text-align: center;
+font-weight: bold;
+font-size: 100%;
+}
+#c_entry p {
+margin: 0 10px 5px;
+line-height: 1.4em;
+}
+
+#c_entry div {
+text-align: center;
+margin-bottom: 5px;
+}
+
+
+/*----------------------------------------------------------
+
+archive
+
+----------------------------------------------------------*/
+#c_archive {
+border: solid 1px #000;
+background: #FF8FB0;
+padding: 0 34px;
+}
+#c_archive h1,
+#c_archive h2 {
+background: #000;
+color: #fff;
+padding: 5px;
+text-align: center;
+font-weight: bold;
+font-size: 100%;
+}
+#blog_index {
+padding: 5px;
+}
+#blog_index h3 {
+font-size: 14px;
+font-weight: bold;
+}
+
+.archive_list {
+margin-bottom: 10px;
+background-color: #ffccdb;
+width: 100%;
+}
+.archive_list td {
+vertical-align: top;
+padding: 4px;
+border: solid 1px #FF8FB0;
+}
+
+.spec_list {
+margin-bottom: 10px;
+}
+
+#c_archive a:hover {
+background: #FF4F88;
+}
+
+/*----------------------------------------------------------
+
+about
+
+----------------------------------------------------------*/
+#c_about {
+border: solid 1px #000;
+background: #A76FFF;
+padding: 0 34px;
+}
+#c_about #c_about_inner {
+margin: 10px;
+}
+#c_about h2,
+#c_about h3 {
+font-weight: bold;
+margin-bottom: 10px;
+}
+#c_about p{
+margin-bottom: 5px;
+}
+
+.section {
+margin-bottom: 20px;
+}
+
+/*----------------------------------------------------------
+
+parts
+
+----------------------------------------------------------*/
+#c_parts {
+border: solid 1px #000;
+background: #4CAD31;
+padding: 0 5px;
+}
+#c_parts #c_parts_inner {
+margin: 10px;
+}
+#c_parts h2,
+#c_parts h3 {
+font-weight: bold;
+margin-bottom: 10px;
+}
+#c_parts p{
+margin-bottom: 5px;
+}
+
+.section {
+margin-bottom: 20px;
+}
+ul.amazonList li {
+float: left;
+margin-left: 10px;
+}
+
+
+
+/*----------------------------------------------------------
+
+inpression
+
+----------------------------------------------------------*/
+#c_inp {
+border: solid 1px #000;
+background: #c33;
+padding: 0 34px;
+}
+#c_inp h1,
+#c_inp h2 {
+background: #000;
+color: #fff;
+padding: 5px;
+text-align: center;
+font-weight: bold;
+font-size: 100%;
+}
+ul.spec_detail_list {
+margin-bottom: 10px;
+}
+ul.spec_detail_list li {
+padding: 0 10px 10px;
+font-weight: bold;
+line-height: 1.4em;
+}
+ul.spec_detail_list li dl {
+margin-top: 5px;
+margin-left: 1em;
+}
+ul.spec_detail_list li dl dt {
+font-weight: normal;
+color: #02008F;
+}
+ul.spec_detail_list li dl dd {
+font-weight: normal;
+margin: 5px 0 10px;
+}
+
+
+/***************************************************************
+
+Module
+
+***************************************************************/
+/* custom */
+.main_visual_image {
+text-align: center;
+}
+
+#pager_area {
+margin: 20px 0 10px;
+}
+
+
+/*margin padding
+----------------------------------------------*/
+.mt0 {margin-top:0 !important;}
+.mt1 {margin-top:1px !important;}
+.mt2 {margin-top:2px !important;}
+.mt3 {margin-top:3px !important;}
+.mt4 {margin-top:4px !important;}
+.mt5 {margin-top:5px !important;}
+.mt10 {margin-top:10px !important;}
+.mt11 {margin-top:11px !important;}
+.mt12 {margin-top:12px !important;}
+.mt13 {margin-top:13px !important;}
+.mt14 {margin-top:14px !important;}
+.mt15 {margin-top:15px !important;}
+.mt20 {margin-top:20px !important;}
+.mt25 {margin-top:25px !important;}
+.mt30 {margin-top:30px !important;}
+.mt35 {margin-top:35px !important;}
+.mt40 {margin-top:40px !important;}
+.mt45 {margin-top:45px !important;}
+.mt50 {margin-top:50px !important;}
+.mt55 {margin-top:55px !important;}
+.mt60 {margin-top:60px !important;}
+.mt65 {margin-top:65px !important;}
+.mt70 {margin-top:70px !important;}
+.mt75 {margin-top:75px !important;}
+.mt80 {margin-top:80px !important;}
+.mt85 {margin-top:85px !important;}
+.mt90 {margin-top:90px !important;}
+.mt95 {margin-top:95px !important;}
+.mt100 {margin-top:100px !important;}
+
+.mb0 {margin-bottom:0px !important;}
+.mb5 {margin-bottom:5px !important;}
+.mb10 {margin-bottom:10px !important;}
+.mb15 {margin-bottom:15px !important;}
+.mb20 {margin-bottom:20px !important;}
+.mb25 {margin-bottom:25px !important;}
+.mb30 {margin-bottom:30px !important;}
+.mb35 {margin-bottom:35px !important;}
+.mb40 {margin-bottom:40px !important;}
+.mb45 {margin-bottom:45px !important;}
+.mb50 {margin-bottom:50px !important;}
+
+.ml0 {margin-left:0;}
+.ml1 {margin-left:1px !important;}
+.ml2 {margin-left:2px !important;}
+.ml3 {margin-left:3px !important;}
+.ml4 {margin-left:4px !important;}
+.ml5 {margin-left:5px !important;}
+.ml6 {margin-left:6px !important;}
+.ml7 {margin-left:7px !important;}
+.ml8 {margin-left:8px !important;}
+.ml9 {margin-left:9px !important;}
+.ml10 {margin-left:10px !important;}
+.ml15 {margin-left:15px !important;}
+.ml20 {margin-left:20px !important;}
+
+.mr0 {margin-right:0px !important;}
+.mr5 {margin-right:5px !important;}
+.mr6 {margin-right:6px !important;}
+.mr7 {margin-right:7px !important;}
+.mr8 {margin-right:8px !important;}
+.mr9 {margin-right:9px !important;}
+.mr10 {margin-right:10px !important;}
+.mr15 {margin-right:15px !important;}
+.mr20 {margin-right:20px !important;}
+
+.pt0 {padding-top:0px !important;}
+.pt5 {padding-top:5px !important;}
+.pt10 {padding-top:10px !important;}
+.pt15 {padding-top:15px !important;}
+.pt20 {padding-top:20px !important;}
+.pt25 {padding-top:25px !important;}
+.pt30 {padding-top:30px !important;}
+
+.pb0 {padding-bottom:0px !important;}
+.pb5 {padding-bottom:5px !important;}
+.pb10 {padding-bottom:10px !important;}
+.pb15 {padding-bottom:15px !important;}
+.pb20 {padding-bottom:20px !important;}
+.pb25 {padding-bottom:25px !important;}
+.pb30 {padding-bottom:30px !important;}
+
+.pl0 {padding-left:0 !important;}
+.pl5 {padding-left:5px !important;}
+.pl10 {padding-left:10px !important;}
+.pl15 {padding-left:15px !important;}
+.pl20 {padding-left:20px !important;}
+.pl25 {padding-left:25px !important;}
+.pl30 {padding-left:30px !important;}
+
+.pr0 {padding-right:0 !important;}
+.pr5 {padding-right:5px !important;}
+.pr10 {padding-right:10px !important;}
+.pr15 {padding-right:15px !important;}
+.pr20 {padding-right:20px !important;}
+.pr25 {padding-right:25px !important;}
+.pr30 {padding-right:30px !important;}
+
+/*position
+----------------------------------------------*/
+.fl {float: left !important;}
+.fr {float: right !important;}
+
+.vt {vertical-align: top !important;}
+.vm {vertical-align: middle !important;}
+.vb {vertical-align: bottom !important;}
+
+.center {text-align: center !important;}
+.right {text-align: right !important;}
+
+.xlf {font-size: 125% !important;}
+.lf {font-size: 115% !important;}
+.sf {font-size: 85% !important;}
+.xsf {font-size: 75% !important;}
+
+/*visual
+----------------------------------------------*/
+.none {display: none;}
+
+
+/***************************************************************
+
+clearfix
+
+***************************************************************/
+div:after,
+.clearfix:after {
+content: '.';
+display: block;
+clear: both;
+height: 0;
+visibility: hidden;
+}
+div,
+.clearfix {
+display: block;
+}
+div,
+.clearfix {
+>display: inline-block;
+}
+
+/**
+* MediaQueries
+*/
+@media only screen and (max-width: 580px)
+{
+/* all */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, p,
+blockquote, th, td, form, fieldset, legend, article, section, aside, header, footer, nav {
+font-size: medium;
+-webkit-text-size-adjust: none;/* Mobile Safari : 文字サイズの自動調整をオフに */
+}
+
+}
